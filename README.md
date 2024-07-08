@@ -54,9 +54,11 @@ Se você deseja contribuir com este repositório, siga os passos abaixo:
 
 1. Faça um fork do repositório.
 2. Crie uma branch para sua feature (`git checkout -b feature/nome-da-feature`).
-3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`).
-4. Faça push para a branch (`git push origin feature/nome-da-feature`).
-5. Abra um Pull Request.
+3. Faça commit das suas alterações (`git add .` e `git commit -m 'Adiciona nova feature'`).
+4. Se necessário, revise quem fez a solicitação de alteração.
+5. Crie uma tag para marcar a versão (`git tag -a v1.0.0 -m 'Descrição da versão'`).
+6. Faça push para a branch e para a tag (`git push origin feature/nome-da-feature` e `git push origin v1.0.0`).
+7. Abra um Pull Request.
 
 ## Licença
 
