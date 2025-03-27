@@ -17,4 +17,4 @@ def mostrar_msg(mensagem):
 subscriber.subscribe(subscription, callback=mostrar_msg)
 
 while True:
-    time.sleep(3)
+    time.sleep(5)
